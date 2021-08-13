@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body{
+    position: relative;
+    background-color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6em;
+}
+
+.main-container{
+    margin-top: 20px;
+    margin-left: 60px;
+    width: 90%;
+    background-color: #f4f4f4;
+    position: relative;
+   
+}
+.container{
+    width: 100%;
+    overflow: auto;
+    padding: 3rem 2rem;
+    background-color: black;
+    position: relative; 
+}
+#my-form{
+    box-sizing: border-box;
+}
+
+#my-form h1{
+    text-align: center;
+    box-sizing: border-box;
+    color: white;
+}
+
+.formInput #task{
+    margin-top: 13px;
+    width: 85%;
+    height: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    box-sizing: border-box;
+    display: inline-block;
+    
+}
+
+.btn{
+    font-size:18px ;
+    padding: 8px;
+    width: 15%;
+    height: 40px;
+    background-color: #c0c2c4;
+    display: inline-block;
+    margin-left: -5px;
+    border: none;
+}
+
+.ul{
+    list-style: none;
+}
+
+.ul li{
+    padding: 5px;
+}
+
+.task{
+    width: 100%;
+    list-style: none;
+    padding: 8px;
+    font-size: 25px;
+    padding: 10px;
+
+}
+.taskCompleted{
+    width: 100%;
+    list-style: none;
+    padding: 8px;
+    font-size: 25px;
+    padding: 10px;
+    background-color: rgb(26, 194, 138);
+    text-decoration: line-through;
+
+}
+
+.cross{
+    float: right;
+    background-image: url(;);
+}
+.tick{
+    float: left;
+    margin-top: 2px;
+    margin-right: 20px;
+    background-image: url('../images/tick.png');
+    background-repeat: no-repeat;
+}
+.task:nth-child(even){
+    background-color: #d4d7da;
+}
+
+
+
+/* .tasks{
+    margin-top: 0px;
+    margin-left: 60px;
+    width: 90%;
+    overflow: auto;
+    padding: 3rem 2rem;
+    background-color: #f4f4f4;
+   
+}
+.task{
+    width: 100%;
+    padding: 5px;
+    background-color: #f4f4f4;
+    list-style: none;
+    font-size: 18px;
+    border: grey 1px solid;
+} */
+
+.btnRemove{
+    margin-top: 60px;
+    background-color: #000;
+    text-align: center;
+    position: absolute;
+    left: 500px;
+    color: #fff;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+
+.error {
+    background: orangered;
+    color: #fff;
+    padding: 5px;
+    margin: 5px;
+  }
