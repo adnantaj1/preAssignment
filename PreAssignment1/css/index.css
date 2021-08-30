@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.main-header {
+  background-image: url("../images/showcaseBGImage.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 90vh;
+  width: 100vw;
+  text-align: center;
+}
+.main-header__navbar {
+  background-color: rgba(0, 0, 0, 0.45);
+  padding: 1em;
+}
+.main-header ul {
+  display: flex;
+  align-items: center;
+}
+.main-header ul > :first-child {
+  margin-right: auto;
+}
+.main-header ul > :last-child {
+  margin-right: 2em;
+}
+.main-header a {
+  text-decoration: none;
+  color: #fff;
+  margin-left: 1em;
+}
+.main-header__top-article {
+  padding-top: 2em;
+  align-content: center;
+}
+.main-header h1 {
+  color: #fff;
+}
+.main-header p {
+  color: #fff;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50vw;
+}
+.main-header__btn-container {
+  margin: 10em auto;
+  display: flex;
+  justify-content: space-between;
+  max-width: 30vw;
+}
+
+.main__showcase-section {
+  margin: 3em;
+  text-align: center;
+}
+.main h2 {
+  margin-bottom: 5em;
+  text-align: center;
+}
+.main__container-article {
+  display: flex;
+  margin-left: 4em;
+  margin-right: 4em;
+}
+.main__group-article {
+  border: 0.1em black solid;
+  margin: 0.4em;
+}
+
+.main-footer {
+  background-color: #000;
+}
+.main-footer ul {
+  display: flex;
+  align-items: center;
+}
+.main-footer ul > :last-child {
+  margin-left: auto;
+  margin-right: 2em;
+}
+.main-footer a {
+  color: #fff;
+  margin-left: 2em;
+}
+.main-footer p {
+  color: #fff;
+}
+
+.btn {
+  background: none;
+  border: 0.1em #000 solid;
+  padding: 0.3em;
+  margin-bottom: 0.3em;
+}
+.btn--hover-white:hover {
+  background-color: #fff;
+}
+.btn--hover-black:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+@media only screen and (max-width: 600px) {
+  .main__container-article {
+    display: flex;
+    flex-direction: column;
+    margin-left: 4em;
+    margin-right: 4em;
+  }
+}/*# sourceMappingURL=index.css.map */

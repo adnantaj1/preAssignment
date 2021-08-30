@@ -19,7 +19,7 @@ ul{
     width: 100vw;
     text-align: center;
 }
-.header-navbar{
+.main-header__navbar{
     background-color: rgba(0, 0, 0, 0.45);
     padding: 1em;
 }
